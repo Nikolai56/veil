@@ -1,3 +1,3 @@
 # veil
 golden veil
-[Link to view this repository](https://nikolai56.github.io/veil/ (недоступная ссылка) "Заголовок ссылки")
+[Link to view this repository](https://nikolai56.github.io/veil/)
