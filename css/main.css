@@ -97,7 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+.advantages-item img {
+  border-radius: 50%;
+  border: 2px solid sandybrown;
+  padding: 10px;
+}
 
 
 
