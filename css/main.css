@@ -120,7 +120,30 @@ textarea {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+.col-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths,
+.col-xl-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
+.col-5ths {
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+@media (min-width: 768px) {
+  .col-md-5ths {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
 /*
  * Hide visually and from screen readers
  */
