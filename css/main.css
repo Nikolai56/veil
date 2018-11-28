@@ -103,7 +103,23 @@ textarea {
   padding: 10px;
 }
 
+.advices {
+  counter-reset: heading;
+}
 
+.advices-item h3 {
+  position: relative;
+}
+
+.advices-item h3:before {
+  content: counter(heading);
+  counter-increment: heading;
+  color: #ecc7b7;
+  position: absolute;
+  user-select: none;
+  font-size: 4rem;
+  z-index: -1;
+}
 
 
 
