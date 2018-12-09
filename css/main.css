@@ -137,6 +137,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Geometria Regular', sans-serif;
+}
+
 h2 {
   color: #910041;
   font-family: 'Geometria Extra Bold', sans-serif;
@@ -153,8 +159,14 @@ h3 {
   line-height: 1.5;
 }
 
+header {
+  background: url('../img/main-bg.png');
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .advantages {
-  background: url('../img/advantages-bg.png');
+  background: url('../img/main-bg.png');
   padding-top: 6.5rem;
   padding-bottom: 1rem;
 }
@@ -185,6 +197,33 @@ h3 {
   user-select: none;
   font-size: 4rem;
   z-index: -1;
+}
+
+.services {
+  background-color: #910041;
+  color: #fff;
+  padding-top: 2rem;
+}
+
+.services h2 {
+  color: #fff;
+}
+
+.services h3 {
+  color: #fff;
+  font-family: 'Geometria Medium', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.services img {
+  margin-bottom: 1rem;
+}
+
+
+.weWork {
+  background: url('../img/main-bg.png');
+  padding-top: 6.5rem;
+  padding-bottom: 1rem;
 }
 
 
