@@ -6,14 +6,55 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+@font-face {
+  font-family: 'Geometria Extra Bold';
+  src: url('../fonts/Geometria-ExtraBold.eot');
+  src: url('../fonts/Geometria-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Geometria-ExtraBold.woff') format('woff'),
+  url('../fonts/Geometria-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria Bold';
+  src: url('../fonts/Geometria-Bold.eot');
+  src: url('../fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Geometria-Bold.woff') format('woff'),
+  url('../fonts/Geometria-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria Medium';
+  src: url('../fonts/Geometria-Medium.eot');
+  src: url('../fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Geometria-Medium.woff') format('woff'),
+  url('../fonts/Geometria-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria Regular';
+  src: url('../fonts/Geometria.eot');
+  src: url('../fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Geometria.woff') format('woff'),
+  url('../fonts/Geometria.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
 html {
     color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 10px;
+    line-height: 1.5;
 }
 
 /*
@@ -96,6 +137,31 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h2 {
+  color: #910041;
+  font-family: 'Geometria Extra Bold', sans-serif;
+  font-size: 28px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  color: #424242;
+  font-family: 'Geometria Extra Bold', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.advantages {
+  background: url('../img/advantages-bg.png');
+  padding-top: 6.5rem;
+  padding-bottom: 1rem;
+}
+
+.advantages-item {
+  margin-bottom: 5rem;
+}
 
 .advantages-item img {
   border-radius: 50%;
