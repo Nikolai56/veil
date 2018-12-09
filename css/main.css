@@ -135,9 +135,75 @@ textarea {
 }
 
 /* ==========================================================================
+   Bootstrap style over
+   ========================================================================== */
+.bg-dark {
+  background-color: #910041!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-family: 'Geometria Bold', sans-serif;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+  text-shadow: 0px 3px 10px #000;
+}
+
+.btn {
+  border-radius: 16px;
+  font-family: 'Geometria Medium', sans-serif;
+  font-size: 15px;
+  line-height: 32px;
+  padding: 0 6rem;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #910041;
+  border-color: #910041;
+}
+
+.btn-primary:hover {
+  background-color: #740033;
+  border-color: #740033;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #740033;
+  border-color: #740033;
+}
+
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.nav-item {
+  margin-right: 9px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
 body {
+  word-break: break-word;
   font-size: 15px;
   line-height: 1.5;
   font-family: 'Geometria Regular', sans-serif;
@@ -159,14 +225,65 @@ h3 {
   line-height: 1.5;
 }
 
+strong {
+  font-family: 'Geometria Extra Bold', sans-serif;
+}
+
 header {
   background: url('../img/main-bg.png');
+  background-size: cover;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
+address {
+  color: #1d1d1d;
+  font-family: 'Geometria Extra Bold', sans-serif;
+  font-size: 17px;
+}
+
+address:before {
+  content: '';
+  background-image: url('../img/icon-map.png');
+  display: inline-block;
+  height: 28px;
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+header address {
+  margin-top: 1.5rem;
+}
+
+header .btn {
+  margin-top: 4rem;
+}
+
+.phone {
+  color: #1d1d1d;
+  font-family: 'Geometria Medium', sans-serif;
+  font-size: 30px;
+}
+
+.phone:hover {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+.phone:before {
+  content: '';
+  background-image: url(../img/icon-phone.png);
+  display: inline-block;
+  height: 33px;
+  width: 23px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
 .advantages {
   background: url('../img/main-bg.png');
+  background-size: cover;
   padding-top: 6.5rem;
   padding-bottom: 1rem;
 }
@@ -179,6 +296,7 @@ header {
   border-radius: 50%;
   border: 2px solid sandybrown;
   padding: 10px;
+  margin-bottom: 1rem;
 }
 
 .advices {
@@ -222,14 +340,57 @@ header {
 
 .weWork {
   background: url('../img/main-bg.png');
+  background-size: cover;
   padding-top: 6.5rem;
   padding-bottom: 1rem;
 }
 
+.weWork-item img {
+  border-radius: 50%;
+  border: 2px solid sandybrown;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
 
+.weWork-item {
+  margin-bottom: 5rem;
+}
 
+.weWork-item:after {
+  content: '';
+  background-image: url(../img/icon-arrow-right.png);
+  height: 39px;
+  width: 22px;
+  vertical-align: middle;
+  position: absolute;
+  top: 74px;
+  right: -12px;
+}
 
+.ourDesigners {
+  background: url('../img/bg-designers.jpg');
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  background-size: cover;
+}
 
+.ourDesigners h3 {
+  color: #222222;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.ourDesigners img {
+  border-radius: 50%;
+  border: 8px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.break-bg {
+  background: url('../img/main-bg.png') center;
+  background-size: cover;
+  height: 30px;
+}
 
 
 
