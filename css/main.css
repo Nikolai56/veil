@@ -234,7 +234,7 @@ strong {
 }
 
 header {
-  background: url('../img/main-bg.png');
+  background: url('../img/main-bg.png') center;
   background-size: cover;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -301,24 +301,6 @@ header .btn {
   border: 2px solid sandybrown;
   padding: 10px;
   margin-bottom: 1rem;
-}
-
-.advices {
-  counter-reset: heading;
-}
-
-.advices-item h3 {
-  position: relative;
-}
-
-.advices-item h3:before {
-  content: counter(heading);
-  counter-increment: heading;
-  color: #ecc7b7;
-  position: absolute;
-  user-select: none;
-  font-size: 4rem;
-  z-index: -1;
 }
 
 .services {
@@ -405,6 +387,42 @@ header .btn {
 
 .item img {
   margin-bottom: 2rem;
+}
+
+.advices {
+  background-color: #ffdeba;
+  counter-reset: heading;
+  padding-top: 3rem;
+}
+
+.advices h2 {
+  margin-bottom: 7rem;
+}
+
+.advices-item h3 {
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 1.5rem;
+  min-height: 60px;
+  z-index: 1;
+}
+
+.advices-item h3:before {
+  content: counter(heading);
+  counter-increment: heading;
+  color: #f2c089;
+  position: absolute;
+  user-select: none;
+  font-size: 141px;
+  line-height: 1;
+  z-index: -1;
+  top: -50px;
+  left: -10px;
+}
+
+.advices-item p {
+  font-size: 15px;
+  margin-bottom: 8rem;
 }
 
 
