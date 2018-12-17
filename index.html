@@ -70,13 +70,13 @@
             <a class="nav-link scroll" href="#our-projects">Проекты</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll" href="#">Советы дизайнера</a>
+            <a class="nav-link scroll" href="#advices">Советы дизайнера</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll" href="#">Видео</a>
+            <a class="nav-link scroll" href="#videos">Видео</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll" href="#">Контакты</a>
+            <a class="nav-link scroll" href="#contacts">Контакты</a>
           </li>
         </ul>
       </div>
@@ -244,7 +244,7 @@
     <section class="ourProjects text-center" id="our-projects">
       <div class="container">
         <h2>Наши проекты</h2>
-        <div class="owl-carousel">
+        <div class="owl-carousel owl-projects owl-theme">
           <div class="item">
             <img src="img/projects01.jpg" alt="Посёлок Костино">
             <h3>Посёлок Костино</h3>
@@ -280,7 +280,7 @@
         </div>
       </div>
     </section>
-    <section class="advices">
+    <section class="advices" id="advices">
       <div class="container">
         <h2 class="text-center">Советы дизайнера</h2>
         <div class="row">
@@ -339,24 +339,63 @@
         </div>
       </div>
     </section>
+    <section class="videos bg-main text-center" id="videos">
+      <div class="container">
+        <h2>Видеоматериалы</h2>
+        <div class="owl-carousel owl-videos owl-theme">
+          <img src="img/video01.jpg" alt="видео" class="item">
+          <img src="img/video02.jpg" alt="видео" class="item">
+          <img src="img/video03.jpg" alt="видео" class="item">
+          <img src="img/video01.jpg" alt="видео" class="item">
+          <img src="img/video02.jpg" alt="видео" class="item">
+          <img src="img/video03.jpg" alt="видео" class="item">
+        </div>
+      </div>
+    </section>
+    <section class="diplomas text-center">
+      <div class="container">
+        <h2>Наши дипломы</h2>
+        <div class="owl-carousel owl-projects owl-theme">
+          <img src="img/diploma01.jpg" alt="диплом" class="item">
+          <img src="img/diploma02.jpg" alt="диплом" class="item">
+          <img src="img/diploma03.jpg" alt="диплом" class="item">
+          <img src="img/diploma04.jpg" alt="диплом" class="item">
+          <img src="img/diploma01.jpg" alt="диплом" class="item">
+          <img src="img/diploma02.jpg" alt="диплом" class="item">
+          <img src="img/diploma03.jpg" alt="диплом" class="item">
+          <img src="img/diploma04.jpg" alt="диплом" class="item">
+        </div>
+      </div>
+    </section>
   </main>
-  <footer>
+  <footer id="contacts">
     <div class="container">
-      <h2>Контакты</h2>
+      <h2 class="text-center">Контакты</h2>
       <div class="row">
         <div class="col-12 col-md-4">
           <address>г. Киров, ул. Герцена, д.42</address>
           <div class="phone">(8332)<strong>35-74-01</strong></div>
         </div>
-        <div class="col-12 col-md-4 text-center">
-          <img src="img/logo.png" alt="logo">
+        <div class="col-12 col-md-4 text-center mb-4">
+          <a class="scroll" href="#top"><img src="img/logo.png" alt="logo"></a>
         </div>
-        <div class="col-12 col-md-4 text-center">
-          <a class="btn btn-primary" href="#">Написать нам</a><br>
-          Мы в соцсетях
+        <div class="col-12 col-md-4 text-center mb-4">
+          <a class="btn btn-primary mb-20" href="#">Написать нам</a>
+          <p class="geo-bold mb-4">Мы в соцсетях</p>
+          <div class="d-flex justify-content-between m-auto" style="max-width: 22.5rem">
+            <a href="https://www.instagram.com/" target="_blank" rel="nofollow">
+              <img src="img/icon-insta.png" alt="instagram">
+            </a>
+            <a href="https://vk.com/" target="_blank" rel="nofollow">
+              <img src="img/icon-vk.png" alt="vk">
+            </a>
+            <a href="https://fb.com" target="_blank" rel="nofollow">
+              <img src="img/icon-fb.png" alt="fb">
+            </a>
+          </div>
         </div>
       </div>
-      Салон Золотая Вуаль &copy; 2018
+      <p class="copyright">Салон Золотая Вуаль &copy; 2018</p>
     </div>
   </footer>
 

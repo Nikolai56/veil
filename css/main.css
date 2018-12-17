@@ -264,6 +264,11 @@ header .btn {
   margin-top: 4rem;
 }
 
+.bg-main {
+  background: url('../img/main-bg.png') center;
+  background-size: cover;
+}
+
 .phone {
   color: #1d1d1d;
   font-family: 'Geometria Medium', sans-serif;
@@ -379,7 +384,7 @@ header .btn {
 }
 
 .ourProjects {
-  background: url(../img/main-bg.png);
+  background: url('../img/main-bg.png') center;
   background-size: cover;
   padding-top: 6rem;
   padding-bottom: 1rem;
@@ -422,17 +427,40 @@ header .btn {
 
 .advices-item p {
   font-size: 15px;
-  margin-bottom: 8rem;
+  margin-bottom: 7rem;
 }
 
+.videos {
+  padding: 5rem 0 5rem;
+}
 
+.diplomas {
+  background-color: #e1dcd8;
+  padding: 2rem 0 8rem;
+}
 
+footer {
+  background-color: #ffdeba;
+  padding: 4rem 0 3rem;
+}
+
+.copyright {
+  font-size: 14px;
+}
 
 
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+.geo-bold {
+  font-family: 'Geometria Bold', sans-serif;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
 .col-5ths,
 .col-sm-5ths,
 .col-md-5ths,

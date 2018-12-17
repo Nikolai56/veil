@@ -4,9 +4,9 @@ jQuery(document).ready(function($) {
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
   });
 
-  $('.owl-carousel').owlCarousel({
+  $('.owl-projects').owlCarousel({
     loop:true,
-    margin:10,
+    margin:50,
     responsiveClass:true,
     responsive:{
       0:{
@@ -18,10 +18,27 @@ jQuery(document).ready(function($) {
         nav:false
       },
       1000:{
-        items:5,
+        items:4,
         nav:true,
         loop:false
       }
     }
-  })
+  });
+
+  $('.owl-videos').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+      0:{
+        items:1,
+        nav:true
+      },
+      600:{
+        items:3,
+        nav:false
+      }
+    }
+  });
+
 });
