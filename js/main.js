@@ -4,26 +4,37 @@ jQuery(document).ready(function($) {
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
   });
 
-  $('.owl-projects').owlCarousel({
+
+  var owl1 = $('.owl-projects');
+  owl1.owlCarousel({
     loop:true,
+    nav: false,
+    dots: false,
     margin:50,
     responsiveClass:true,
     responsive:{
       0:{
         items:1,
-        nav:true
       },
       600:{
         items:3,
-        nav:false
       },
       1000:{
         items:4,
-        nav:true,
         loop:false
       }
     }
   });
+
+// Go to the next item
+  $('.ourProjects .arrow-right').after().click(function() {
+    owl1.trigger('next.owl.carousel');
+  });
+// Go to the previous item
+  $('.ourProjects .arrow-left').before().click(function() {
+    owl1.trigger('prev.owl.carousel');
+  });
+
 
   $('.owl-videos').owlCarousel({
     loop:true,

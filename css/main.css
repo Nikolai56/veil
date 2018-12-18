@@ -387,7 +387,30 @@ header .btn {
   background: url('../img/main-bg.png') center;
   background-size: cover;
   padding-top: 6rem;
-  padding-bottom: 1rem;
+  padding-bottom: 3.5rem;
+}
+
+.carousel-controls {
+  position: relative;
+  padding: 0 56px;
+}
+
+.carousel-controls .arrow-left, .carousel-controls .arrow-right {
+  cursor: pointer;
+  height: 52px;
+  width: 30px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -56px;
+}
+
+.arrow-left {
+  left: 0;
+}
+
+.arrow-right {
+  right: 0;
 }
 
 .item img {
