@@ -405,16 +405,22 @@ header .btn {
   margin-top: -26px;
 }
 
+.carousel-controls .arrow-left:hover, .carousel-controls .arrow-right:hover {
+  background-position-y: -52px;
+}
+
 .ourProjects .arrow-left, .ourProjects .arrow-right{
   top: 50%;
   margin-top: -56px;
 }
 
 .arrow-left {
+  background: url('../img/icon-left-hover.png');
   left: 0;
 }
 
 .arrow-right {
+  background: url('../img/icon-right-hover.png');
   right: 0;
 }
 
