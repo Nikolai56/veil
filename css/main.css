@@ -402,6 +402,11 @@ header .btn {
   flex-shrink: 0;
   position: absolute;
   top: 50%;
+  margin-top: -26px;
+}
+
+.ourProjects .arrow-left, .ourProjects .arrow-right{
+  top: 50%;
   margin-top: -56px;
 }
 
