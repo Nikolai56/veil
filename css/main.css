@@ -162,7 +162,7 @@ textarea {
   font-family: 'Geometria Medium', sans-serif;
   font-size: 15px;
   line-height: 32px;
-  padding: 0 6rem;
+  padding: 0 2rem;
 }
 
 .btn:focus {
@@ -173,6 +173,7 @@ textarea {
   color: #fff;
   background-color: #910041;
   border-color: #910041;
+  min-width: 22.5rem;
 }
 
 .btn-primary:hover {
@@ -368,6 +369,7 @@ header .btn {
 
 .weWork-item {
   margin-bottom: 5rem;
+  text-transform: uppercase;
 }
 
 .weWork-item:after {
@@ -384,8 +386,12 @@ header .btn {
 .ourDesigners {
   background: url('../img/bg-designers.jpg');
   padding-top: 3rem;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
   background-size: cover;
+}
+
+.ourDesigners-item {
+  margin-bottom: 4rem;
 }
 
 .ourDesigners h3 {
