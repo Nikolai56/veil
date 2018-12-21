@@ -370,17 +370,32 @@ header .btn {
 .weWork-item {
   margin-bottom: 5rem;
   text-transform: uppercase;
+  flex-shrink: 0;
+  margin-right: 4.7rem;
 }
 
-.weWork-item:after {
+.weWork-item:last-child {
+  margin-right: 0;
+}
+
+.weWork-item h3 {
+  max-width: 183px;
+}
+
+.arrow-item {
+  position: relative;
+}
+
+.arrow-item:after {
   content: '';
   background-image: url(../img/icon-arrow-right.png);
   height: 39px;
   width: 22px;
   vertical-align: middle;
   position: absolute;
-  top: 74px;
-  right: -12px;
+  top: 50%;
+  margin-top: -23px;
+  right: -3.5rem;
 }
 
 .ourDesigners {
