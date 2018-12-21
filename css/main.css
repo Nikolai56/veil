@@ -218,6 +218,19 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
+.navbar-brand {
+  font-size: 16px;
+  font-family: 'Geometria Bold', sans-serif;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #fff;
+  font-size: 16px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
 /* ==========================================================================
    Author's custom styles
@@ -312,6 +325,32 @@ header .btn {
   width: 23px;
   vertical-align: middle;
   margin-right: 5px;
+}
+
+.main-carousel {
+  position: relative;
+}
+
+.main-carousel .owl-carousel .owl-item {
+  min-height: 300px;
+}
+
+@media (max-width: 1199px) {
+  .main-carousel .owl-carousel .owl-item img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+
+
+.main-carousel-abs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
 }
 
 .advantages {
@@ -483,6 +522,14 @@ header .btn {
 .arrow-right {
   background: url('../img/icon-right-hover.png');
   right: 0;
+}
+
+.main-carousel .arrow-left {
+  background: url('../img/icon-left-white.png');
+}
+
+.main-carousel .arrow-right {
+  background: url('../img/icon-right-white.png');
 }
 
 .item img {
