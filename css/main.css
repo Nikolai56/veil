@@ -332,7 +332,7 @@ header .btn {
 }
 
 .main-carousel .owl-carousel .owl-item {
-  min-height: 300px;
+  min-height: 368px;
 }
 
 @media (max-width: 1199px) {
@@ -351,6 +351,10 @@ header .btn {
   right: 0;
   bottom: 0;
   z-index: 10;
+}
+
+.carousel-form {
+  margin: auto 0 auto auto;
 }
 
 .advantages {
@@ -590,21 +594,47 @@ footer {
   font-size: 14px;
 }
 
-.form-primary {
-  background-color: #910041;
+.form {
   border-radius: 10px;
   padding: 2rem 4rem 3rem;
   text-align: left;
 }
 
-.form-primary h2 {
-  font-size: 26px;
+.form-primary {
+  background-color: #910041;
+  color: #fff;
+}
+
+.form-secondary {
+  background-color: rgba(255,255,255,0.86);
+  color: #131313;
+}
+
+.form-secondary .form-policy {
+  color: #474747;
+}
+
+.form-secondary .form-policy:before {
+  background-image: url('../img/icon-lock-grey.png');
+}
+
+.form h2 {
   text-transform: initial;
+  font-size: 26px;
+  line-height: 28px;
   margin-bottom: 2rem;
   text-align: center;
 }
 
-.form-primary label {
+.form-primary h2 {
+  color: #fff;
+}
+
+.form-secondary h2 {
+  color: #910041;
+}
+
+.form label {
   font-family: 'Geometria Medium', sans-serif;
   font-size: 15px;
 }
@@ -613,7 +643,7 @@ footer {
   border-color: #910041;
 }
 
-.form-primary .btn {
+.form .btn {
   margin-top: 1.5rem;
   width: 100%;
 }
