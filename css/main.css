@@ -194,6 +194,29 @@ textarea {
   border-color: #740033;
 }
 
+.btn-secondary {
+  background-color: #ffce98;
+  border-color: #ffce98;
+  color: #000;
+  font-family: 'Geometria Extra Bold', sans-serif;
+}
+
+.btn-secondary:hover, .btn-secondary:focus,
+.btn-secondary:not(:disabled):not(.disabled):active {
+  background-color: #feb05a;
+  border-color: #feb05a;
+  color: #000;
+}
+
+.form-control {
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 30px;
+  height: 30px;
+  padding: 0 20px;
+  margin-bottom: 1.5rem;
+}
+
 
 /* ==========================================================================
    Author's custom styles
@@ -377,6 +400,23 @@ header .btn {
   margin-bottom: 1rem;
 }
 
+.spec {
+  background: url('../img/bg-spec.jpg') center;
+  background-size: cover;
+  color: #fff;
+  padding: 3.5rem 0;
+}
+
+.spec h2 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.spec p {
+  font-size: 42px;
+  line-height: 55px;
+}
+
 .break-bg {
   background: url('../img/main-bg.png') center;
   background-size: cover;
@@ -482,7 +522,63 @@ footer {
   font-size: 14px;
 }
 
+.form-primary {
+  background-color: #910041;
+  border-radius: 10px;
+  padding: 2rem 4rem 3rem;
+  text-align: left;
+}
 
+.form-primary h2 {
+  font-size: 26px;
+  text-transform: initial;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-primary label {
+  font-family: 'Geometria Medium', sans-serif;
+  font-size: 15px;
+}
+
+.form-primary .form-control {
+  border-color: #910041;
+}
+
+.form-primary .btn {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.form-primary .form-control:focus {
+  border-color: #ffce98;
+  box-shadow: 0 0 0 0.2rem #ffce98;
+}
+
+.form-policy {
+  color: #fff;
+  display: block;
+  font-family: 'Geometria Medium', sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 2rem;
+}
+
+.form-policy:hover {
+  color: #fff;
+}
+
+.form-policy:before {
+  content: '';
+  background-image: url('../img/icon-lock.png');
+  height: 26px;
+  width: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 
 /* ==========================================================================
    Helper classes
