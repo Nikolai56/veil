@@ -712,6 +712,15 @@ footer {
   padding: 2rem 4rem 3rem;
 }
 
+.form-group {
+  position: relative;
+}
+
+.form-group > span.error {
+  position: absolute;
+  bottom: -16px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

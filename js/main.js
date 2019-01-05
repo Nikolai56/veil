@@ -124,7 +124,10 @@ jQuery(document).ready(function($) {
     var modal = $(this);
     modal.find('.modal-title').text(title);
     modal.find('.input-hidden-title').val(hidden);
-  })
+  });
 
+  $(document).on('submit', '.ajax_form', function() {
+    $('#writeToUs').modal('hide');
+  });
 
 });
