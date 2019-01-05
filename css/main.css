@@ -354,7 +354,6 @@ header .btn {
 
 .main-carousel .owl-carousel .owl-item {
   height: 368px;
-  /*height: 420px;*/
 }
 
 @media (max-width: 1299.98px) {
@@ -366,12 +365,6 @@ header .btn {
     height: 420px;
   }
 }
-
-/*@media (max-width: 992.98px) {*/
-  /*.main-carousel .owl-carousel .owl-item {*/
-    /*height: 420px;*/
-  /*}*/
-/*}*/
 
 .main-carousel-abs {
   position: absolute;
