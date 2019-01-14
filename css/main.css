@@ -215,7 +215,7 @@ textarea {
   line-height: 30px;
   height: 30px;
   padding: 0 20px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .navbar-brand {
@@ -622,7 +622,7 @@ footer {
 
 .form {
   border-radius: 10px;
-  padding: 2rem 4rem 3rem;
+  padding: 2rem 4rem 2rem;
   text-align: left;
 }
 
@@ -652,7 +652,7 @@ footer {
   text-transform: initial;
   font-size: 26px;
   line-height: 28px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -674,7 +674,7 @@ footer {
 }
 
 .form .btn {
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   width: 100%;
 }
 
