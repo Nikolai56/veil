@@ -98,10 +98,12 @@ jQuery(document).ready(function($) {
 
   var owl4 = $('.owl-main');
   owl4.owlCarousel({
-    loop:true,
-    nav:false,
-    dots:false,
-    margin:0,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    loop: true,
+    nav: false,
+    dots: false,
+    margin: 0,
     items: 1,
   });
 
