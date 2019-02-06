@@ -517,7 +517,7 @@ header .btn {
   background: url('../img/main-bg.png') center;
   background-size: cover;
   padding-top: 6rem;
-  padding-bottom: 3.5rem;
+  padding-bottom: 6rem;
 }
 
 .carousel-controls {
@@ -539,11 +539,6 @@ header .btn {
   background-position-y: -52px;
 }
 
-.ourProjects .arrow-left, .ourProjects .arrow-right{
-  top: 50%;
-  margin-top: -56px;
-}
-
 .arrow-left {
   background: url('../img/icon-left-hover.png');
   left: 0;
@@ -560,10 +555,6 @@ header .btn {
 
 .main-carousel .arrow-right {
   background: url('../img/icon-right-white.png');
-}
-
-.item img {
-  margin-bottom: 2rem;
 }
 
 .advices {
