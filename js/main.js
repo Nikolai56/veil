@@ -68,7 +68,7 @@ jQuery(document).ready(function($) {
 
   var owl3 = $('.owl-diplomas');
   owl3.owlCarousel({
-    loop:true,
+    loop:false,
     nav:false,
     dots:false,
     margin:38,
