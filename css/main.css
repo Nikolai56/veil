@@ -474,6 +474,19 @@ header .btn {
   right: -3.5rem;
 }
 
+@media (max-width: 489px) {
+  .arrow-item:after {
+    content: none;
+  }
+  .weWork-item {
+    margin-right: 0;
+    width: 100%;
+  }
+  .weWork-item h3 {
+    max-width: initial;
+  }
+}
+
 .ourDesigners {
   background: url('../img/bg-designers.jpg');
   padding-top: 3rem;
